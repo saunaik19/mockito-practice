@@ -1,13 +1,13 @@
-package org.example.saurabh.service.dao;
+package org.example.saurabh.book.dao;
 
-import org.example.saurabh.dao.BookRepository;
-import org.example.saurabh.dto.Book;
+import org.example.saurabh.book.Book;
+import org.example.saurabh.dummy.DummyBookRepository;
 
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
-public class BookRepositoryTest implements BookRepository {
+public class NewBookRepositoryTest implements DummyBookRepository {
     Map<String,Book> bookStore=new HashMap<>();
 
     @Override

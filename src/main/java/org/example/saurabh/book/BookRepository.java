@@ -1,6 +1,4 @@
-package org.example.saurabh.dao;
-
-import org.example.saurabh.dto.Book;
+package org.example.saurabh.book;
 
 import java.util.Collection;
 

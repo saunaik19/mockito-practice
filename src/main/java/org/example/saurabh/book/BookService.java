@@ -1,7 +1,4 @@
-package org.example.saurabh.service;
-
-import org.example.saurabh.dao.BookRepository;
-import org.example.saurabh.dto.Book;
+package org.example.saurabh.book;
 
 public class BookService {
     private BookRepository bookRepository;
